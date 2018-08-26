@@ -2,7 +2,7 @@
   "LoanApplication": [
     
     { 
-	    "id":42,
+	    
 		"actualTotalDSR": 44,
         "ApplicationId": "42",
 		"applicationClass": "4",
