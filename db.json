@@ -1,0 +1,220 @@
+{
+  "LoanApplication": [
+    
+    { 
+	    "id":42,
+		"actualTotalDSR": 44,
+        "ApplicationId": "42",
+		"applicationClass": "4",
+        "locationcode": "4",
+        "isVerifyHR": true,
+        "programCurrentUtilisation": 40,
+        "userLimit": 41,
+        "invocation": {
+            "runId": 0,
+            "randomNumber": 0,
+			"runName":0,
+			"transactionUID":0,
+			"decisionPoint":0,
+			"strategyName":0
+        },
+        "primaryApplicant": {
+            "identityNo": "434",
+            "dateOfBirth": "1994-04-04",
+			 
+            "age": 44,
+            "nationality": "THAI",
+            "gender": "M",
+            "maritalStatus": "m",
+            "customerGroup": "m",
+            "relationshipWithPrimary": "SPOUSE",
+            "address": [
+                {
+                    "type": "OFFICE",
+                    "state": "jbb",
+                    "city": "hbhb",
+                    "province": "hb",
+                    "addressLine1": "hbh",
+                    "phone": "899889898",
+                    "locationCode": "98"
+                }
+            ],
+            "employment": [
+                {
+                    "employmentID": "8787",
+                    "occupation": "SE",
+                    "occupationGroup": "87",
+                    "iscurrentemployment": true,
+                    "workExperience": 8,
+                    "timeInBusiness": 7
+                }
+            ],
+            "financials": {
+                "totalMonthlyIncome": 54454,
+                "sourceOfIncome": 45,
+                "providentFundTotal": 45,
+                "totalUnsecuredExposure": 45
+            },
+            "bureau": {
+                "isWaiveNCB": true,
+                "NCB_grade": "54",
+                "NCB_subGrade": "54",
+                "noOfIssuerBank": 54,
+                "oldestMOBUnsecured": 45,
+                "oldestRBG_MOB": 54,
+                "accounts": [
+                    {
+                        "refer_id": "5",
+                        "asofdate": "1997-04-05",
+                        "Segment": "54",
+                        "Tag": "54",
+                        "seq_tl": 54,
+                        "MemberShortName": "54",
+                        "OwnershipIndicator": "545",
+                        "AccountStatus": "4",
+						"AccountType": "D",
+                        "dateAccountOpened": "1995-05-04",
+                        "dateAccountClosed": "2012-11-11",
+                        "Amountowed": 38787,
+                        "creditLimit": 32,
+                        "installmentAmount": 7676,
+                        "installmentNumberOfPayments": 76,
+                        "PaymentHistory1": "76",
+						"PaymentHistory2": "76"
+                    }
+                ],
+                "enquiries": [
+                    {
+                        "refer_id": "767",
+                        "AsofDate": "2018-06-07",
+                        "Segment": "76",
+                        "Tag": "67",
+                        "seq_tl": 67,
+                        "seq_hs": 76,
+                        "AmountOwed": 76,
+                        "CreditLimit": 76,
+                        "OverDueMonths": 76,
+                        "HistoryDate": "2017-07-07"
+                    }
+                ],
+                "history": [
+                    {
+                        "refer_id": "65",
+                        "Segment": "65",
+                        "Tag": "65",
+                        "seq_iq": 65,
+                        "MemberShortName": "65",
+                        "EnquiryPurpose": "65",
+                        "EnquiryDate": "2017-06-05"
+                    }
+                ]
+            },
+            "fraudChecks": {
+                "negativeDatabaseNameMatchPct": 434,
+                "negativeDatabaseAddressMatchPct": 43,
+                "idMatchType_L60D": "43",
+                "numAppsFromSameCompanyName_L30D": 43,
+                "idMatchType_L90D": "43",
+                "incomeIncreasePriorApp_L90D": 4345
+            },
+            "isVIP": true,
+            "isCorporate": true,
+            "isFraud": true,
+            "isProvince": true,
+            "isSME": true,
+            "isSAC": true,
+            "Email": "as@j.com",
+            "hasBadDebtHRP": true,
+            "hasBadDebtMCP": true,
+            "isNewCustomer": true,
+            "isRelated": true,
+            "isWaiveDocumentation": true,
+            "MCS_score": 11,
+            "compliance": {
+                "isPEP": true,
+                "kycLevel": 54,
+                "kycReason": 54,
+                "bklType": 54,
+                "bklSubType": 54
+            },
+             
+            "avgBalanceAccL12M": 1122,
+            "maxDelinquency12MSCB": 22,
+            "monthsSinceNewestAcctSCB": 43
+        },
+        "coApplicants": [
+            
+        ],
+        "guarantors": [
+            
+               
+        ],
+        "requestedProducts": [
+            {
+                "productType": "54",
+                "subProductType": "54",
+                "tenor": 54,
+                "loanAmount": 54,
+                "approvedCreditLimit": 54,
+                "actualDSRByProduct": 54,
+                
+                "customerFlag": true,
+                "bacAccountType": "D"
+               
+            }
+        ],
+        
+        "decision": {
+	 
+		
+		 "systemRecommended": {
+                "type": "SYSTEM",
+                "limitAmount": 0,
+                "tenor": 0,
+                "pricing": 0
+            },
+            "alternativeOffer": {
+                "type": "SYSTEM",
+                "limitAmount": 0,
+                "tenor": 0,
+                "pricing": 0
+            },
+		
+		
+		"productProgram":null,
+		"productProgramType":null,
+            "programUtilisation": 0,
+			"productProgramPriority":"hg",
+            "isPassMCSAScoreSPL": false,
+            "isTestProgram": false,
+            "highestUWCriteriaScore": 0,
+            "highestUWCriteriaMessage": 0,
+			"approvalAuthorityLevelName":"fwf",
+			"approvalAuthorityLevelCode": "a",
+			"highestUWCriteriaUWGroup": "sf",
+			
+			
+            "uwCriteria": [
+                {
+                    "name": "UW_CHECK_OUTRIGHT_REJECT_SE87",
+                    "isChecked": true,
+                    "outcome": "NOT_OK",
+                    "message": "SEApplicantFailMinIncCriteria"
+                }
+            ]
+        },
+        "applicationClass": "44",
+        "traditionalMLScore": {
+            "scoreType": "TRADITIONAL",
+            "score": 0,
+			"scoreModelID":24
+        },
+        "alternativeMLScore": {
+            "scoreType": "TRADITIONAL",
+            "score": 0,
+			"scoreModelID":24
+        }
+    }
+
+  ]
+}
